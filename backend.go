@@ -147,6 +147,6 @@ func main() {
     http.HandleFunc("/status", gameHandler)
     http.HandleFunc("/reset",  gameHandler)
     fmt.Println("Server on http://localhost:8080")
-    fmt.Println("game is ruining")
+   // fmt.Println("game is ruining")
     http.ListenAndServe(":8080", nil)
 }
